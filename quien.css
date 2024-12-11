@@ -1,0 +1,108 @@
+/* Elimina márgenes y rellenos predeterminados y configura box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuración general del body */
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    background-color: #5e1d1d; /* Fondo oscuro */
+    text-align: center; /* Centra el texto */
+    display: flex; /* Flexbox para estructurar el contenido */
+    justify-content: center; /* Centrar contenido horizontalmente */
+    align-items: center; /* Centrar contenido verticalmente */
+    min-height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
+    flex-direction: column; /* Apila los elementos verticalmente */
+}
+
+/* Estiliza el encabezado */
+header {
+    text-align: center; /* Centra el texto */
+    background-color: #7a1d1d; /* Fondo oscuro */
+    padding: 20px; /* Relleno interno */
+    width: 100%; /* Ocupa todo el ancho */
+    font-family: Arial, sans-serif; /* Fuente */
+}
+
+/* Ajusta el logo */
+header .logo {
+    width: 100px; /* Ancho del logo */
+    margin: 0 auto; /* Centra el logo horizontalmente */
+}
+
+/* Estiliza listas de navegación */
+ul {
+    display: flex; /* Usa flexbox para organizar los elementos */
+    flex-direction: row; /* Coloca los elementos en fila */
+    justify-content: center; /* Centra los elementos dentro de la lista */
+    padding: 10px 0; /* Espaciado vertical */
+}
+
+/* Estiliza elementos de lista */
+li {
+    list-style: none; /* Elimina las viñetas */
+    margin: 0 15px; /* Espaciado entre elementos */
+}
+
+/* Estilo de los enlaces */
+a {
+    text-decoration: none; /* Sin subrayado */
+    color: aliceblue; /* Color blanco azulado */
+}
+
+/* Cambia el color del enlace al pasar el cursor */
+a:hover {
+    color: #ff3b3b; /* Rojo brillante */
+}
+
+/* Configura la sección principal */
+main {
+    display: grid; /* Usa un diseño en cuadrícula */
+    gap: 20px; /* Espaciado entre elementos */
+    padding: 50px; /* Relleno interno */
+    justify-content: center; /* Centra horizontalmente los elementos en el grid */
+    align-items: center; /* Centra verticalmente los elementos en el grid */
+    background-color: #5f0000; /* Fondo oscuro para el main */
+    width: 100%; /* Ocupa todo el ancho */
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #5f0000; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    padding: 8px 15px; /* Relleno interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Cambia el color del botón al pasar el cursor */
+button:hover {
+    background-color: #ff3b3b; /* Rojo brillante */
+}
+
+/* Caja de información */
+#boxinfo {
+    width: 500px; /* Ancho fijo */
+    height: 500px; /* Alto fijo */
+    background-color: white; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    border: 1px solid #5e1d1d; /* Borde oscuro */
+    padding: 15px; /* Relleno interno */
+    text-align: center; /* Centra el texto */
+    box-shadow: 0 2px 5px #5e1d1d; /* Sombra sutil */
+    margin: 0 auto; /* Centra la caja horizontalmente */
+    font-size: 18px; /* Tamaño del texto */
+}
+
+/* Configuración del pie de página */
+footer {
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Relleno interno */
+    background-color: #7a1d1d; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    width: 100%; /* Ocupa todo el ancho */
+    margin-top: 20px; /* Espaciado superior */
+}
