@@ -1,0 +1,78 @@
+* {
+    margin: 0; /* Elimina el margen predeterminado de todos los elementos */
+    padding: 0; /* Elimina el relleno predeterminado de todos los elementos */
+    box-sizing: border-box; /* Incluye los bordes y el padding dentro del ancho y alto del elemento */
+}
+
+header .logo {
+    width: 100px; /* Establece el ancho de la imagen del logo */
+}
+
+header nav a:hover {
+    color: #ff3b3b; /* Cambia el color del enlace al pasar el cursor */
+}
+
+header {
+    text-align: center; /* Centra el contenido del encabezado */
+    background-color: #7a1d1d; /* Color de fondo rojo oscuro */
+    padding: 20px; /* Espaciado interno del encabezado */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+}
+
+ul {
+    display: flex; /* Utiliza flexbox para organizar los elementos */
+    flex-direction: row; /* Ordena los elementos en fila */
+    justify-content: center; /* Centra horizontalmente los elementos dentro del `ul` */
+    padding: 10px 0; /* Espaciado vertical dentro del `ul` */
+}
+
+li {
+    list-style: none; /* Elimina el estilo de lista (viñetas o números) */
+    margin: 0 15px; /* Añade margen horizontal entre los elementos */
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: aliceblue; /* Establece el color del texto de los enlaces */
+}
+
+main {
+    display: flex; /* Utiliza flexbox para organizar el contenido */
+    gap: 20px; /* Espaciado entre los elementos secundarios */
+    padding: 50px; /* Espaciado interno alrededor del contenido principal */
+    justify-content: center; /* Centra horizontalmente los elementos dentro de `main` */
+    align-items: center; /* Centra verticalmente los elementos dentro de `main` */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+}
+
+button {
+    background-color: #5f0000; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 8px 15px; /* Espaciado interno del botón */
+    border: none; /* Elimina los bordes predeterminados */
+    border-radius: 5px; /* Bordes redondeados del botón */
+}
+
+#boxproducto {
+    width: 250px; /* Ancho del contenedor del producto */
+    background-color: #7a1d1d; /* Fondo oscuro para los productos */
+    border-radius: 8px; /* Bordes redondeados del contenedor */
+    border: 1px solid #5e1d1d; /* Borde oscuro */
+    padding: 15px; /* Espaciado interno dentro del contenedor */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    box-shadow: 0 2px 5px #5e1d1d; /* Sombra alrededor del contenedor */
+    justify-content: center; /* Centra el contenido del contenedor (en caso de flex) */
+}
+
+footer {
+    text-align: center; /* Centra el contenido del pie de página */
+    padding: 20px; /* Espaciado interno del pie de página */
+    background-color: #7a1d1d; /* Fondo rojo oscuro */
+    color: white; /* Texto blanco */
+}
+
+.botonescontador {
+    display: flex; /* Utiliza flexbox para organizar los botones */
+    flex-direction: row; /* Ordena los botones en fila */
+    justify-content: center; /* Centra los botones horizontalmente */
+}
