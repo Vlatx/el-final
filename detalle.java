@@ -10,7 +10,7 @@ function cargarmenu() {
     let enlaces = document.getElementById("ulmenu"); // Obtiene la lista del menú por su ID
     for (const menu of menus) {
         let lista = document.createElement("li"); // Crea un nuevo elemento de lista
-        lista.innerHTML = <a href="${menu.url}">${menu.nombre}</a>; // Añade un enlace con el nombre y URL del menú
+        lista.innerHTML = `<a href="${menu.url}">${menu.nombre}</a>`; // Añade un enlace con el nombre y URL del menú
         enlaces.appendChild(lista); // Agrega el elemento al DOM
     }
 }
