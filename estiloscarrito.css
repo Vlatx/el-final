@@ -23,14 +23,14 @@ th {
 
 /* Estilo para las celdas de datos */
 td {
-    border: 2px solid #7a1d1d; /* Bordes con color oscuro */
+    border: 2px solid #1f1d7a; /* Bordes con color oscuro */
     padding: 12px; /* Relleno interno */
     font-size: 1.1em; /* Incrementa el tamaño del texto */
 }
 
 /* Estilo del encabezado */
 header {
-    background: #7a1d1d; /* Fondo oscuro */
+    background: #1f1d7a; /* Fondo oscuro */
     color: white; /* Texto blanco */
     padding: 10px 0; /* Relleno interno */
     text-align: center; /* Centra el texto */
@@ -44,7 +44,7 @@ header .logo {
 
 /* Efecto hover para enlaces de navegación en el encabezado */
 header nav a:hover {
-    color: #ff3b3b; /* Cambia el color del enlace a rojo brillante al pasar el cursor */
+    color: #3b3eff; /* Cambia el color del enlace a azul brillante al pasar el cursor */
 }
 
 /* Estilo para listas de navegación */
@@ -77,7 +77,7 @@ main {
 
 /* Estilo para botones */
 button {
-    background-color: #5f0000; /* Fondo rojo oscuro */
+    background-color: #06005f; /* Fondo azul oscuro */
     color: white; /* Texto blanco */
     padding: 8px 15px; /* Relleno interno */
     border: none; /* Sin bordes */
@@ -119,3 +119,4 @@ button {
         display: block; /* Muestra el ícono del menú */
     }
 }
+
