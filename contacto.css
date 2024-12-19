@@ -3,24 +3,18 @@
     padding: 0; /* Elimina el relleno predeterminado de todos los elementos */
     box-sizing: border-box; /* Incluye los bordes y el padding dentro del ancho y alto del elemento */
 }
-body {
-    font-family: Arial, sans-serif; /* Fuente del texto */
-    background-color: white; /* Fondo blanco */
-    justify-content: center; /* Sin efecto directo en body */
-}
-
 
 header .logo {
     width: 100px; /* Define el ancho de la imagen del logo */
 }
 
 header nav a:hover {
-    color: #ff3b3b; /* Cambia el color del enlace al pasar el cursor */
+    color: #3b3eff; /* Cambia el color del enlace al pasar el cursor */
 }
 
 header {
     text-align: center; /* Centra horizontalmente el contenido del encabezado */
-    background-color: #7a1d1d; /* Fondo rojo oscuro */
+    background-color: #0924bb; /* Fondo azul oscuro */
     padding: 20px; /* Añade espacio interno al encabezado */
 }
 
@@ -50,7 +44,7 @@ main {
 }
 
 button {
-    background-color: #5f0000; /* Establece el color de fondo del botón */
+    background-color: #02005f; /* Establece el color de fondo del botón */
     color: white; /* Establece el color del texto del botón */
     padding: 8px 15px; /* Espaciado interno del botón */
     border: none; /* Elimina bordes predeterminados */
@@ -58,7 +52,7 @@ button {
 }
 
 #formularioinicio {
-    background-color: #7a1d1d; /* Fondo rojo oscuro para el formulario */
+    background-color: #231d7a; /* Fondo azul oscuro para el formulario */
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra alrededor del formulario */
     padding: 20px; /* Espaciado interno */
@@ -72,7 +66,7 @@ button {
 footer {
     text-align: center; /* Centra el texto del pie de página */
     padding: 20px; /* Espaciado interno */
-    background-color: #7a1d1d; /* Fondo rojo oscuro */
+    background-color: #231d7a; /* Fondo azul oscuro */
     color: white; /* Texto blanco */
 }
 
@@ -81,3 +75,4 @@ footer {
     flex-direction: row; /* Ordena los botones en fila */
     justify-content: center; /* Centra horizontalmente los botones */
 }
+
