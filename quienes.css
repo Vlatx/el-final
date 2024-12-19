@@ -8,7 +8,7 @@
 /* Configuración general del body */
 body {
     font-family: Arial, sans-serif; /* Fuente del texto */
-    background-color: #5e1d1d; /* Fondo oscuro */
+    background-color: #271d5e; /* Fondo oscuro */
     text-align: center; /* Centra el texto */
     display: flex; /* Flexbox para estructurar el contenido */
     justify-content: center; /* Centrar contenido horizontalmente */
@@ -20,7 +20,7 @@ body {
 /* Estiliza el encabezado */
 header {
     text-align: center; /* Centra el texto */
-    background-color: #7a1d1d; /* Fondo oscuro */
+    background-color: #1f1d7a; /* Fondo oscuro */
     padding: 20px; /* Relleno interno */
     width: 100%; /* Ocupa todo el ancho */
     font-family: Arial, sans-serif; /* Fuente */
@@ -54,7 +54,7 @@ a {
 
 /* Cambia el color del enlace al pasar el cursor */
 a:hover {
-    color: #ff3b3b; /* Rojo brillante */
+    color: #3e3bff; /* Rojo brillante */
 }
 
 /* Configura la sección principal */
@@ -64,13 +64,13 @@ main {
     padding: 50px; /* Relleno interno */
     justify-content: center; /* Centra horizontalmente los elementos en el grid */
     align-items: center; /* Centra verticalmente los elementos en el grid */
-    background-color: #5f0000; /* Fondo oscuro para el main */
+    background-color: #02005f; /* Fondo oscuro para el main */
     width: 100%; /* Ocupa todo el ancho */
 }
 
 /* Estilo para los botones */
 button {
-    background-color: #5f0000; /* Fondo oscuro */
+    background-color: #0a005f; /* Fondo oscuro */
     color: white; /* Texto blanco */
     padding: 8px 15px; /* Relleno interno */
     border: none; /* Sin borde */
@@ -80,7 +80,7 @@ button {
 
 /* Cambia el color del botón al pasar el cursor */
 button:hover {
-    background-color: #ff3b3b; /* Rojo brillante */
+    background-color: #3b3eff; /* Rojo brillante */
 }
 
 /* Caja de información */
@@ -89,10 +89,10 @@ button:hover {
     height: 500px; /* Alto fijo */
     background-color: white; /* Fondo blanco */
     border-radius: 8px; /* Bordes redondeados */
-    border: 1px solid #5e1d1d; /* Borde oscuro */
+    border: 1px solid #1d215e; /* Borde oscuro */
     padding: 15px; /* Relleno interno */
     text-align: center; /* Centra el texto */
-    box-shadow: 0 2px 5px #5e1d1d; /* Sombra sutil */
+    box-shadow: 0 2px 5px #211d5e; /* Sombra sutil */
     margin: 0 auto; /* Centra la caja horizontalmente */
     font-size: 18px; /* Tamaño del texto */
 }
@@ -101,7 +101,7 @@ button:hover {
 footer {
     text-align: center; /* Centra el texto */
     padding: 20px; /* Relleno interno */
-    background-color: #7a1d1d; /* Fondo oscuro */
+    background-color: #1f1d7a; /* Fondo oscuro */
     color: white; /* Texto blanco */
     width: 100%; /* Ocupa todo el ancho */
     margin-top: 20px; /* Espaciado superior */
