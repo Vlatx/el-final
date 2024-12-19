@@ -9,12 +9,12 @@ header .logo {
 }
 
 header nav a:hover {
-    color: #ff3b3b; /* Cambia el color del enlace al pasar el cursor */
+    color: #4f3bff; /* Cambia el color del enlace al pasar el cursor */
 }
 
 header {
     text-align: center; /* Centra el contenido del encabezado */
-    background-color: #7a1d1d; /* Color de fondo rojo oscuro */
+    background-color: #2e1d7a; /* Color de fondo azul oscuro */
     padding: 20px; /* Espaciado interno del encabezado */
     font-family: Arial, sans-serif; /* Fuente del texto */
 }
@@ -46,7 +46,7 @@ main {
 }
 
 button {
-    background-color: #5f0000; /* Color de fondo del botón */
+    background-color: #06005f; /* Color de fondo del botón */
     color: white; /* Color del texto del botón */
     padding: 8px 15px; /* Espaciado interno del botón */
     border: none; /* Elimina los bordes predeterminados */
@@ -55,19 +55,19 @@ button {
 
 #boxproducto {
     width: 250px; /* Ancho del contenedor del producto */
-    background-color: #7a1d1d; /* Fondo oscuro para los productos */
+    background-color: #261d7a; /* Fondo oscuro para los productos */
     border-radius: 8px; /* Bordes redondeados del contenedor */
-    border: 1px solid #5e1d1d; /* Borde oscuro */
+    border: 1px solid #1e1d5e; /* Borde oscuro */
     padding: 15px; /* Espaciado interno dentro del contenedor */
     text-align: center; /* Centra el texto dentro del contenedor */
-    box-shadow: 0 2px 5px #5e1d1d; /* Sombra alrededor del contenedor */
+    box-shadow: 0 2px 5px #1d215e; /* Sombra alrededor del contenedor */
     justify-content: center; /* Centra el contenido del contenedor (en caso de flex) */
 }
 
 footer {
     text-align: center; /* Centra el contenido del pie de página */
     padding: 20px; /* Espaciado interno del pie de página */
-    background-color: #7a1d1d; /* Fondo rojo oscuro */
+    background-color: #231d7a; /* Fondo azul oscuro */
     color: white; /* Texto blanco */
 }
 
